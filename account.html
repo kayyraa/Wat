@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="scripts/style/format.css">
+        <link rel="stylesheet" href="scripts/style/style.css">
+
+        <script type="module" src="scripts/account.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.js"></script>
+
+        <title>Account</title>
+    </head>
+    <body>
+        <topbar>
+            <header>Account</header>
+            <vr></vr>
+            <button darklight onclick="location.href = './index.html'">Return</button>
+        </topbar>
+        <content>
+            <div class="AccountForm">
+                <input class="Username" type="text" placeholder="Username" required>
+                <input class="Password" type="password" placeholder="Password" required>
+                <button class="Submit" highlight>Sign In</button>
+            </div>
+        </content>
+    </body>
+</html>
